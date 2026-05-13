@@ -1,0 +1,28 @@
+# Environment files
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Dependency and virtual environment folders
+node_modules/
+vendor/
+.venv/
+venv/
+__pycache__/
+
+# Build, cache and test artifacts
+dist/
+build/
+out/
+coverage/
+.cache/
+tmp/
+temp/
+*.log
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
